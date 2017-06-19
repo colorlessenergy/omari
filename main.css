@@ -1,11 +1,14 @@
 html, body {
+  font-family: 'Roboto', sans-serif;
   margin: 0;
 }
 
 header {
   background-size: cover;
   background-position: center;
-  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
 }
 
 header.main {
@@ -14,4 +17,61 @@ header.main {
 
 header.about {
   background-image: url(images/youngo.gif);
+}
+
+header div {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header div h1 {
+  font-size: 100px;
+  margin: 2% 0;
+}
+
+header div p:first-of-type {
+  font-size: 20px;
+  font-style: italic;
+  margin: 0;
+}
+
+header div .button a {
+  background-color: #2196f3;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+header nav {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+}
+
+header nav h1 {
+  color: #fff;
+  margin: 0 0 0 5%;
+}
+
+header nav ul {
+  display: flex;
+  font-weight: bold;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0 5% 0 0;
+  padding: 0;
+  width: 40%;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
 }
