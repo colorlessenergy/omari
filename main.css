@@ -100,6 +100,95 @@ header nav ul li a {
   text-decoration: none;
 }
 
+.achievements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+}
+
+.achievements  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.achievements ul li {
+  color: rgba(26, 26 ,26, .7);
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.achievements ul li img {
+  height: 25px;
+  margin-right: 1%;
+  width: 25px;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container .inner {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+
+.container .inner section {
+  width: 100%;
+  text-align: center;
+}
+
+.container .inner .inner-about {
+  color: rgba(26, 26, 26, .9);
+  font-size: 32px;
+  margin-top: 5%;
+}
+
+.container .inner .mission {
+  color: #4a4a4a;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+}
+
+.container .inner .mission h3 {
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.container .inner .quote {
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #222;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+}
+
+.container .inner .quote p:first-of-type {
+  font-size: 4em;
+  margin: 0;
+  opacity: .3;
+}
+
+.container .inner .quote .actual-quote {
+  color: rgba(26, 26 ,26, .9);
+  font-size: 20px;
+}
+
+.container .inner .quote p:last-of-type {
+  font-size: 15px;
+  opacity: .5;
+}
+
 .mini-about {
   display: flex;
   height: 400px;
@@ -162,9 +251,7 @@ header nav ul li a {
   text-decoration: none;
 }
 
-
-/*special inline classes */
-
+/*special classes*/
 .underline {
   border-bottom: 1px solid rgba(130, 130, 130, .4);
   padding-bottom: 5px;
