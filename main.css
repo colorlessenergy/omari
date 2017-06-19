@@ -256,3 +256,71 @@ header nav ul li a {
   border-bottom: 1px solid rgba(130, 130, 130, .4);
   padding-bottom: 5px;
 }
+
+.responsive, .responsive-small {
+  display: none;
+}
+
+@media screen and (max-width: 750px) {
+
+  footer p {
+    text-align: center;
+    width: 95%;
+  }
+
+  .container .inner {
+    width: 90%
+  }
+
+  .container .inner .inner-about {
+    font-size: 21px;
+  }
+
+  .mini-about {
+    height: 600px;
+  }
+
+  .mini-about div {
+    width: 95%;
+  }
+
+  .mini-about div h2 {
+    font-size: 22px;
+  }
+
+  .talent {
+    flex-direction: column;
+    height: 1400px;
+  }
+
+
+  .talent div img {
+    height: 65%;
+  }
+
+  .talent div {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+
+  .responsive {
+    display: block;
+  }
+
+  .full {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 530px) {
+  .responsive-small {
+    display: block;
+  }
+  
+  .responsive {
+    display: none;
+  }
+}
