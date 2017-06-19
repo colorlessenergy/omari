@@ -3,6 +3,30 @@ html, body {
   margin: 0;
 }
 
+footer {
+  align-items: center;
+  background-color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: center;
+}
+
+footer p {
+  color: rgba(255, 255, 255, .8);
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+footer p:last-of-type {
+  color: rgba(130, 130, 130, .4);
+}
+
+footer p a {
+  color: rgba(130, 130, 130, .4);
+  text-decoration: none;
+}
+
 header {
   background-size: cover;
   background-position: center;
@@ -74,4 +98,74 @@ header nav ul {
 header nav ul li a {
   color: #fff;
   text-decoration: none;
+}
+
+.mini-about {
+  display: flex;
+  height: 400px;
+  justify-content: center;
+}
+
+.mini-about div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  width: 60%;
+}
+
+.mini-about div h2 {
+  color: rgba(26, 26, 26, .9);
+  font-size: 25px;
+}
+
+.mini-about div p {
+  color: rgba(26, 26, 26, .7);
+  font-size: 18px;
+}
+
+.talent {
+  align-items: center;
+  display: flex;
+  height: 600px;
+  justify-content: space-around;
+}
+
+.talent div {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+  width: 33%;
+}
+
+.talent div img {
+  height: 60%;
+  width: 100%;
+}
+
+.talent div h3 {
+  color: #3d9991;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+.talent div p {
+  color: rgba(26, 26, 26, .7);
+  font-size: 18px;
+  margin: 5% 0 0 0;
+}
+
+.talent div p a {
+  color: #3d9991;
+  text-decoration: none;
+}
+
+
+/*special inline classes */
+
+.underline {
+  border-bottom: 1px solid rgba(130, 130, 130, .4);
+  padding-bottom: 5px;
 }
