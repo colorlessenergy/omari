@@ -46,6 +46,7 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  height: 580px;
   height: 90vh;
 }
 
